@@ -5,6 +5,12 @@ This is a project which is the Application of Computer vision library opencv![Su
 Given a partially filled 9×9 2D array ‘grid[9][9]’, the goal is to assign digits (from 1 to 9) to the empty cells so that every row, column, and subgrid of size 3×3 contains exactly one instance of the digits from 1 to 9. 
 
 
+
+
+
+
+
+
 Procedure to make this project
 
 1.Sudoku grid is pre-processed using image blurring (noise-removal), canny-edge detection and erosion + dilation.
@@ -19,7 +25,12 @@ Procedure to make this project
 
 
 
-Algorithms :-
+
+
+
+
+
+![Sudoku_Pic](https://user-images.githubusercontent.com/77828640/130758733-38cb1b41-164e-4bbc-99d5-8fee9486317c.png)-
 
 Soduku is solved by Backtracking Algorithms 
 
@@ -32,6 +43,12 @@ Soduku is solved by Backtracking Algorithms
 4.if the current index is not assigned then fill the element from 1 to 9 and recur for all 9 cases with the index of next element, i.e. i, j+1. if the recursive call returns true then break the loop and return true.
 
 5.if the current index is assigned then call the recursive function with index of next element, i.e. i, j+1
+
+
+
+
+
+
 
 
 package used here:-
