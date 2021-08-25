@@ -32,7 +32,12 @@ Procedure to make this project
 
 ![Sudoku_Pic](https://user-images.githubusercontent.com/77828640/130758733-38cb1b41-164e-4bbc-99d5-8fee9486317c.png)-
 
+
+
+
+
 Soduku is solved by Backtracking Algorithms 
+
 
 1.Create a function that checks if the given matrix is valid sudoku or not. Keep Hashmap for the row, column and boxes. If any number has a frequency greater than 1 in the hashMap return false else return true
 
@@ -51,11 +56,15 @@ Soduku is solved by Backtracking Algorithms
 
 
 
+
 package used here:-
 
 1.Python
+
 2.opencv Library
+
 3.Tensorflow
+
 4.Keras
 
 Algorithm :- Backtaracking
